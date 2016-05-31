@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    watcherService:
+        image: nildev/watcher
+        environment:
+            - ARTEMISD_VERBOSITY=2
+
+networks:
+    default:
+        external:
+            name: nildevnet

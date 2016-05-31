@@ -6,4 +6,4 @@ else
 	export CONFIG=$1
 fi
 
-./bin/watcher --config $CONFIG
+./bin/watcherd --config $CONFIG
